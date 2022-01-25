@@ -25,7 +25,7 @@ Overall, the best rmse **(0.220194)**--about **4.04%** improvement over the kagg
 
 4. Data leakage should be investigated. Signs of data leakage include:
    * Unrealistically high level of performance on the test set
-   * Apparently meaningless feature(s) scoring very high feature importance
+   * Apparently meaningless feature(s) scoring very high on feature importance
    * Partial dependence plots that do not make sense.
   
   ![popularity](https://user-images.githubusercontent.com/50182879/150969313-721a0836-ae6d-410c-9fda-18f2e8461d95.png)![partial_dependence](https://user-images.githubusercontent.com/50182879/150969324-ce23809b-6d18-4f7a-8237-7322bab2a411.png)
@@ -38,4 +38,4 @@ Observations extracted from the notebook*
 
 6. A simple Neural network can show superior performance on structured data. A 2-layer neural network in which the categorical variables (i.e features with cardinality < 1000) were handled using embeddings showed a 1.93% improvement in RMSE compared to the _best_ random forest model. It also outperformed the xgboost regressor even after the hyperparameters were tuned. 
 
-7. There is a likely benefit to be derived by using an ensemble of models. In this project, each time, the neural network was combined with any of the trees, a superior performance always ensues. The best performance was obtained from the combination of neural network and the xgboost model. 
+7. There is some benefit to be derived by using an ensemble of models. In this project, each time, the neural network was combined with any of the trees, a superior performance always ensues. The best performance was obtained from the combination of neural network and the xgboost model. 
