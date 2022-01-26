@@ -1,7 +1,8 @@
 # Trees vs. Deeplearners vs. Ensembles: Kaggle (Auction Sale Price Prediction) competition
 
-_Please refer to the notebook(https://github.com/TuringNPcomplete/Predicting-Auction-Sale-Price-EnsemblesvsNeuralNet/blob/main/Auction_Sale_Price_Prediction.ipynb) for the codes and more._\
+_Please refer to the notebook(https://github.com/TuringNPcomplete/Predicting-Auction-Sale-Price-EnsemblesvsNeuralNet/blob/main/Auction_Sale_Price_Prediction.ipynb) for the codes and more._
 
+**Summary and key lessons**
 The performances of tree ensembles and neural networks on structured data are evaluated. In addition, the effectiveness of combining neural network and decision trees (such as random trees, histogram based gradient boosting, and xgboost) is investigated.
 Covariant shift, Random forest's inability to extrapolate, and data leakage are investigated.
 
