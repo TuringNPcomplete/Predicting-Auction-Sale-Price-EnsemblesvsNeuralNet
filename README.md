@@ -42,4 +42,4 @@ Observations extracted from the notebook*
 
 6. A simple Neural network can show superior performance on structured data. A 2-layer neural network in which the categorical variables (i.e features with cardinality < 1000) were handled using embeddings showed a 1.93% improvement in RMSE compared to the _best_ random forest model. It also outperformed the xgboost regressor even after the hyperparameters were tuned. 
 
-7. There is some benefit to be derived by using an ensemble of models. In this project, each time, the neural network was combined with any of the trees, a superior performance always ensues. The best performance was obtained from the combination of neural network and the xgboost model. 
+7. There is some benefit to be derived by using an ensemble of models. In this project, each time, the neural network was combined with any of the trees, a superior performance always ensued. The best performance was obtained from the combination of neural network and the xgboost model. 
